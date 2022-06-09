@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=" موقعنايحتوي على صور لأجود أنواع الأثاث من أجل المطبخ والمقاهي والمطاعم"/>
+    <meta name="keywords" content="أثاث،مطاعم،مقاهي، أثاث المطبخ"/>
+    <meta name="author" content="صانع هذا الموقع هو فتسي صهيب"/>
+    <meta property="og:tite" content="أثاث مقاهي و مطاعم"/>
+    <meta property="og:description" content=" موقعنايحتوي على صور لأجود أنواع الأثاث من أجل المطبخ والمقاهي والمطاعم "/>
+    <meta property="og:image" content="image/logo.jpg"/>
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:url" content="url of web page"/>
+    <meta property="og:type" content="website/>"/>
+    <meta name="twitter:card"content="summary_large_image"/> 
+    <meta name="twitter:title"content="أثاث مقاهي و مطاعم"/> 
+    <meta name="twitter:description"content="موقعنايحتوي على صور لأجود أنواع الأثاث من أجل المطبخ والمقاهي والمطاعم"/> 
+    <meta name="twitter:image"content="image/logo.jpg"/>
+    <title>أثاث مقاهي و مطاعم</title>
+    <link rel="icon" href="image/logo.jpg"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@500;600&display=swap" rel="stylesheet"/>
+    <style>
+        *{
+            margin:O;
+            padding: 0;
+        }
+        header{
+            background-image: linear-gradient(to left,rgb(33, 33, 107),yellow);
+            width: 100%;
+            height: 100px;
+            position: relative;
+            background-position: 5% 5%;          
+        }
+        #logo-title{
+            float: right; 
+            width: 36%;
+            height: 100px;
+            background-color: rgb(34, 34, 109);
+        }
+        header span img{
+            border-radius: 50%;
+            width: 100px;
+            float: right;
+            height: 100px;
+        }
+         header span h1{
+             color: aquamarine;
+             max-height: 100px;
+             padding: 10px 25px;
+             float: left;  
+             font-family: 'Cairo', sans-serif;
+         }
+         header span h1:hover{
+            color: gold;
+            cursor: pointer;
+         }
+         nav{ 
+             width: 64%;
+             height: 100px;
+             background-image: linear-gradient(to left,rgb(33, 33, 107),yellow);
+             text-align: right;
+             
+         }
+         nav li {
+             display: inline-block;
+             line-height: 100px;
+             text-align: center;
+         }
+         nav a{
+             display: inline-block;
+             text-decoration: none;
+             color: rgb(221, 16, 16);
+             font-weight:bolder;
+             font-size: 16px;
+             padding: 10px 45px;
+         }
+         nav a:hover{
+             background-color: silver;
+             color: rgb(48, 45, 45);
+             height: 100%;
+             width: 60%;
+         }
+        main{
+            margin: auto;
+            width:66%;
+            height: 550px;
+            float: right;
+        background-color: silver;
+        }
+        main:hover{
+            animation-name: ChangeColor;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        main article{
+            margin: 5px;
+            padding: 10px;
+            float: left;
+            width: 46%;
+            height: 220px;
+        }
+        main img{
+            padding: 10px;
+            float: left;
+            margin: 10px;
+            width:95% ;
+            height:180px;
+        }
+        main img:hover{
+            height: 80%;
+             width: 100%;
+        }
+        .button_style{
+            padding: 5px;
+            margin: 5px;
+            border-radius: 20px;
+            background-color: brown;
+            color: silver;
+            font-weight: bolder;
+            border-color: gold;
+            width:90% ;
+            cursor: pointer;
+        }
+        .button_style:hover{
+            background-color: silver;
+            color: brown;
+        }
+         aside{
+            float: left;
+            width: 34%;
+          height: 550px;
+         background-color: gold;
+         text-align: center;
+        }
+        aside:hover{
+            animation-name: ChangeColor2;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        aside p {
+            color: brown;
+            font-weight: bolder;
+            font-family: 'Cairo', sans-serif;
+        }
+        #table_style{
+            width: 100%;
+            height: 250px;
+            text-align: center;
+        }
+        #table_style label{
+            color: brown;
+            font-weight: bolder;
+            font-family: 'Cairo', sans-serif;
+        }
+        #table_style input{
+            width: 90%;
+            border-radius: 10px;
+            color: brown;
+            font-weight: bolder;
+            font-family: 'Cairo', sans-serif;
+        }
+        aside div{
+            padding: 10px 0;
+            border-top: 3px solid chocolate;
+            border-bottom: 3px solid chocolate;
+            justify-content: center;
+            width: 100%;
+            display: flex;
+        }
+        aside img{
+            width: 50%;
+        }
+        aside img:hover{
+            background-color: rgb(43, 139, 34);
+             height: 100%;
+             width: 60%;
+        }
+        aside span{
+            display: flex;
+            justify-content: center;
+            height: 150px;
+        }
+        @keyframes ChangeColor{
+            from{background-color: silver;}
+            to {background-color: gold;}
+        }
+        @keyframes ChangeColor2{
+            from{background-color: gold;}
+            to{background-color: silver;}
+        }
+        @media only screen and (max-width:1355px){
+            #logo-title{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(34, 34, 109);
+        }   
+        header span img{
+            border-radius: 50%;
+            width: 100px;
+            float: right;
+            height: 100px;
+        }
+            header span h1{
+             color: aquamarine;
+             max-height: 100px;
+             padding: 10px 25px;
+             margin:auto;
+             text-align: center;
+             float: none;
+             font-family: 'Cairo', sans-serif;
+         }
+
+         header span h1:hover{
+            color: gold;
+            cursor: pointer; 
+        }
+        nav{ 
+             width: 100%;
+             height: 100px;
+             background-image: linear-gradient(to left,rgb(33, 33, 107),yellow);
+             text-align: right;
+             float: left; 
+         }
+         main{
+            margin: auto;
+            width:100%;
+            height: 600px;
+            float: right;
+        background-color: silver;
+        }
+        aside{
+            float: left;
+            width: 100%;
+          height: 600px;
+         background-color: gold;
+         text-align: center;
+        }
+    }
+    @media only screen and (max-width:870px){
+            #logo-title{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(34, 34, 109);
+        }   
+        header span img{
+            border-radius: 50%;
+            width: 100px;
+            float: right;
+            height: 100px;
+        }
+            header span h1{
+             color: aquamarine;
+             max-height: 100px;
+             padding: 10px 25px;
+             margin:auto;
+             text-align: center;
+             float: none;
+             font-family: 'Cairo', sans-serif;
+         }
+
+         header span h1:hover{
+            color: gold;
+            cursor: pointer; 
+        }
+        nav{ 
+             width: 100%;
+             height: 500px;
+             background-image: linear-gradient(to left,rgb(33, 33, 107),yellow);
+             text-align: right;
+             float: left;
+         }
+         nav li {
+             width: 100%;
+             display: inline-block;
+             line-height: 100px;
+             text-align: center;
+         }
+         nav a{
+             width: 100%;
+             display: inline-block;
+             text-decoration: none;
+             color: brown;
+             font-weight:bolder;
+             font-size: 16px;
+             padding: 10px 45px;
+         }
+         main{
+            margin: auto;
+            width:100%;
+            height: 1300px;
+            float: right;
+        background-color: silver;
+        }
+        main article{
+            margin: 5px;
+            padding: 10px;
+            float: none;
+            width: 80%;
+            height: 290px;
+        }
+        main img{
+            padding: 10px;
+            float: none;
+            margin: 10px;
+            width:100% ;
+            height:200px;
+        }
+        main img:hover{
+            height: 90%;
+             width: 100%;
+        }
+        .button_style{
+            padding: 5px;
+            margin: 5px;
+            border-radius: 20px;
+            background-color: brown;
+            color: silver;
+            font-weight: bolder;
+            border-color: gold;
+            width:90% ;
+            cursor: pointer;
+        }
+        .button_style:hover{
+            background-color: silver;
+            color: brown;
+        }
+        aside{
+            float: left;
+            width: 100%;
+          height: 600px;
+         background-color: gold;
+         text-align: center;
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <span id="logo-title">
+            <img src="image/logo.jpg" id="logo2">
+            <h1>أثاث المطاعم والمقاهي</h1>
+           
+        </span>
+    <nav>
+        <ul>   
+            <li> <a href=""> كراسي وطاولات للمطبخ</a></li>
+            <li><a href=""> كراسي وطاولات للمقهى </a></li>
+            <li><a href=""> كراسي وطاولات للمطاعم </a></li>
+            <li><a href="" >الصفحة الرئيسية</a></li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+     <article><img src="image/image1.jpg" ><button class="button_style">شراء</button></article>
+     
+     <article><img src="image/image2.jpg" ><button class="button_style"> شراء</button></article>
+     
+     <article><img src="image/image3.jpg" ><button class="button_style"> شراء</button></article>
+
+     <article><img src="image/image4.jpg" ><button class="button_style"> شراء</button></article>
+    </main>
+    <aside>
+     <p> للإستفادة من منتوجاتنا يرجى ملءاستمارة المعلومات</p>
+     <form dir="rtl">
+       <table id="table_style">
+             <tr>
+                <td>
+                     <label> الإسم</label>
+                </td>
+                <td>
+                     <input type="text" placeholder="الإسم" name="user_name" required maxlength="10" minlength="3">
+                </td>
+             </tr>
+             <tr>
+                 <td>
+                    <label> اللقب</label>
+                 </td>
+                 <td>
+                    <input type="text" placeholder="اللقب" name="user_family_name" required maxlength="10" minlength="3">
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                    <label> العنوان</label>
+                 </td>
+                 <td>
+                    <input type="text" placeholder="العنوان" name="user_adress" required  minlength="3">
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                    <label>رقم الهاتف</label>
+                 </td>
+                 <td>
+                    <input type="tel" placeholder="رقم الهاتف"required >
+                 </td>
+             </tr>
+             <tr>
+                 <td>
+                    <button type="reset" class="button_style"> مسح المعلومات</button>
+                 </td>
+                 <td>
+                    <button type="submit" class="button_style"> تأكيد المعلومات</button>
+                 </td>
+             </tr>
+         </table>
+     </form>
+     <div >
+         <a href=""><img src="image/facebook.png" title="facebook" ></a>
+         <a href=""><img src="image/instagram.png" title="instagram"></a>
+         <a href=""><img src="image/twitter.png" title="twitter"></a>
+         <a href=""><img src="image/whatsapp.png" title="whatssap"></a>
+     </div>
+     <span>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1608.5073089960763!2d6.585342047965498!3d36.26342404549561!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f171d37281c02f%3A0xd45e60b023b5a677!2sPalace%20Meuble%20Royal!5e0!3m2!1sfr!2sdz!4v1654724199746!5m2!1sfr!2sdz" width="80%" height="150px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+       <img src="image/map.png" title="map">
+     </span>
+    </aside>
+</body>
+</html>
